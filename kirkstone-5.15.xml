@@ -11,6 +11,7 @@
   <remote fetch="https://github.com/OSSystems"     name="OSSystems"/>
   <remote fetch="https://github.com/kraj"          name="clang"/>
   <remote fetch="https://github.com/varigit"       name="variscite"/>
+  <remote fetch="ssh://git@github.com/Inovonics-Broadcast"  name="inovonics"/>
 
   <project remote="yocto"     revision="24a3f7b3648185e33133f5d96b184a6cb6524f3d" upstream="kirkstone"   name="poky"                    path="sources/poky"/>
   <project remote="yocto"     revision="3747641f1e71d8e4edd5b587b49d09dc2d243942" upstream="kirkstone"   name="meta-freescale"          path="sources/meta-freescale"/>
@@ -37,5 +38,7 @@
   <project remote="variscite" revision="f2918a4c46a4d47afe0c36ce55013c86d8b7e91c" upstream="kirkstone"   name="meta-variscite-sdk"      path="sources/meta-variscite-sdk">
     <linkfile src="scripts/var-setup-release.sh" dest="var-setup-release.sh"/>
   </project>
+
+  <project remote="inovonics" revision="d81ce9fbbfc8ccc74155c468a3d7249f088748f6" upstream="kirkstone"   name="meta-inovonics"          path="sources/meta-inovonics"/>
 
 </manifest>
