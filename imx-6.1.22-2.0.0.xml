@@ -51,5 +51,5 @@
     <linkfile src="README"            dest="README"/>
   </project>
 
-  <project remote="inovonics" revision="042a424c08835a98d7c1b90dbfd444c2580b44e4" upstream="kirkstone"   name="meta-inovonics"          path="sources/meta-inovonics"/>
+  <project remote="inovonics" revision="60f565fcd5c151314df5c90d039d478d488074bb" upstream="mickledore"   name="meta-inovonics"          path="sources/meta-inovonics"/>
 </manifest>
