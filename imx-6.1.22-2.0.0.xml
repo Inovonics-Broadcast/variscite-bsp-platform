@@ -48,4 +48,6 @@
     <linkfile src="setup-environment" dest="setup-environment"/>
     <linkfile src="README"            dest="README"/>
   </project>
+
+  <project remote="inovonics" revision="042a424c08835a98d7c1b90dbfd444c2580b44e4" upstream="kirkstone"   name="meta-inovonics"          path="sources/meta-inovonics"/>
 </manifest>
